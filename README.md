@@ -4,27 +4,27 @@ you can contribute to make the animation more smooth, or maybe give more animati
 >Thanks to [@bepitulaz](https://github.com/bepitulaz) to help for making this plugin
 
 ### Basic Use
-1. Add sprite-animation.js before your closing <body> tag, after jQuery
+1. Add sprite-animation.js before your closing <body> tag, after jQuery.
 
   ```html
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="js/sprite-animation.js"></script>
   ```
   
-2. Initialize sprite-animation script in your script file or an inline script tag
+2. Initialize sprite-animation script in your script file or an inline script tag.
   
   ```javascript
   $('#nano-id').animatingSprite();
 	```
 	
-3. Set up your HTML markup. make div wraper to set the character position
+3. Set up your HTML markup. make div wraper to set the character position.
   
  ```html
  <div id="nano-container">
     <div id="nano-id"></div>
  </div>   
  ```
-4. make your own css positition. For this case i want to make the character on center and bottom position so i set my css to something like this
+4. make your own css positition. for this case, i want to make the character on center and bottom position, so i set my css to something like this:
 ```css
 #nano-container {
 	position:fixed;
